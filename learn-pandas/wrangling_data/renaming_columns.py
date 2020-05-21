@@ -26,6 +26,4 @@ print(columns_names)
 # Replace coluns
 print(dataframe.rename(columns=columns_names).head(2))
 
-git remote add origin https://github.com/gusxpander/learn-pandas
-
 
