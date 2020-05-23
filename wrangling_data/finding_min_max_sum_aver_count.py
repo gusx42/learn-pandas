@@ -20,3 +20,5 @@ print("skewness: ", dataframe['Age'].skew())
 print("standard error of the mean : ", dataframe['Age'].sem())
 print("mode : ", dataframe['Age'].mode())
 print("median : ", dataframe['Age'].median())
+
+print("count by column from dataframe: ", dataframe.count())
